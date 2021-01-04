@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function documentToScreen() {
+        var x = 12;
+        document.write('x');
+        document.writeln(x);
+        document.write('<br>');
+        document.write('<br>');
+    }
+
+    //Comparaison température par rapport à un seuil//
+    function temperature(x) {
+        var temp = x;
+
+        if (temp >= 42) {
+            document.write(" c'est la canicule ");
+            document.write('<br>');
+            document.write('<br>');
+        }
+        else if (temp >= 36 || temp < 42) {
+            document.write(' il fait chaud ');
+            document.write('<br>');
+            document.write('<br>');
+        }
+        else if (temp < 10) {
+            document.write(' Il fait froid ');
+            document.write('<br>');
+            document.write('<br>');
+    }
+    }
+
+    //Comparaison entre boucle for et while//
+    function comparaison1() {
+        for (i = 1; i <= 100; i++) {
+            document.write(i);
+            document.write('<br>');
+        }
+        document.write('<br>');
+    }
+
+    function comparaison2() {
+        var i = 0;
+        while (i <= 100) {
+            i++;
+            document.write(i);
+            document.write('<br>');
+        }
+    }
+
+    documentToScreen();
+    temperature(35)
+    comparaison1()
+    comparaison2()
+
+</script>

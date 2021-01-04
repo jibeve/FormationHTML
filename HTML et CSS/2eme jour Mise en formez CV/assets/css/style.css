@@ -1,0 +1,48 @@
+
+
+.entete {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    background-color: rgb(176, 196, 197);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.adresse{
+    margin-right: 2%;
+    text-align:right;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+h2{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10px;
+    color: rgb(47, 45, 148);
+    background-color: rgb(176, 196, 197);
+    font-family: cursive;
+}
+
+.annee {
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+ul{
+    margin-left: 20%;
+    color: rgb(15, 7, 7);
+    font-family: fantasy;
+}
+
+h3{
+    margin-right: 25;
+    font-weight: bold;
+    display: inline;
+    font-size: 14px;
+    color: brown;
+}

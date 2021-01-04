@@ -1,0 +1,140 @@
+/* @font-face{
+    font-family: police;
+    src: url("../fonts/sadtember/Sadtember.ttf");
+} */
+
+.gradient-vertical
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(top, red, blue);
+background: -moz-linear-gradient(top, red, blue);
+background: -webkit-linear-gradient(top, red, blue);
+}
+
+.gradient-horiozntal
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(left, red, blue);
+background: -moz-linear-gradient(left, red, blue);
+background: -webkit-linear-gradient(left, red, blue);
+}
+
+
+.gradient-diagonal
+{
+/* width:400px; */
+height: 200px;
+background: -ms-linear-gradient(top left, rgb(235, 147, 15), blue);
+background: -moz-linear-gradient(top left, rgb(245, 189, 35), blue);
+background: -webkit-linear-gradient(top left, rgb(109, 212, 226), rgb(130, 159, 219));
+
+}
+
+.gradient-linear{
+    height: 200px;
+    background: linear-gradient(to bottom right, blue, white);
+}
+
+.entete_rouge {
+    background-color: crimson;
+}
+
+body {
+    margin: 0;
+    font-family: "police";
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbar ul{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+.navbar-item{
+   float: left; 
+}
+.navbar-item a{
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-item a:hover{
+    background-color: darkgrey;
+}
+.active {
+    background-color: darkblue;
+}
+.container {
+    display: block;
+    margin: 65px;
+}
+
+p.rouge{
+    color: rgb(224, 47, 47);
+}
+p.noir{
+    color: rgb(3, 3, 3);
+}
+
+p.vert{
+    color: green;
+}
+
+div.code, div.exemple {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol li{
+    background-color: gold;
+}
+
+.footer{
+    position: relative;
+    background-color: cyan;
+    color: darkblue;
+    /* width: 100%; */
+    bottom: 0;
+    padding-top: 50px;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    color: brown;
+    background-color: cadetblue;
+    height: 50px;
+}
+
+header, article, footer, aside {
+    display: block;
+    }
+
+header {
+    background-color: red;
+    }
+article {
+    height: 300px;
+    float: left;
+    background-color: #66FFFF;
+    width:80%;
+    }
+aside {
+    height: 300px;
+    float:right;
+    width:20%;
+    background-color:yellow;
+    }
+footer {
+    clear: both;
+    background-color: #99FF66;
+    }

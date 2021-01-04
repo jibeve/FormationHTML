@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ajoutUser()">Ajouter un nom</button>
+    <br>
+    <br>
+
+
+    <button onclick="tirage()">Tirage au sort</button>
+</body>
+</html>
+
+<script>
+    /*Création du tableau vide et remplissage avec les inputs de l'utilisateur*/
+     /* On crée une liste vide*/
+    var liste = [];
+
+    function ajoutUser() {
+        /* On demande a l'utilisateur de rentrer son nom*/
+        var addUser = prompt("Saisissez un nom");
+
+        /*On ajoute la valeur dans la liste*/
+        liste.push(addUser);
+        
+        /*controle en console du resultat, j'inspecte dans chrome avec clic droit*/
+        console.log(addUser);
+    }   
+
+    /*Je crée une fonction pour le tirage au sort*/
+
+    function tirage(){
+
+        /*je crée une variable i pour tirer un indice au sort dans la liste*/
+        var i = Math.floor(Math.random() * liste.length);
+
+        /*Je déclare une variable vainqueur qui choisi au hazard un nom dans la liste à la position i*/
+        var vainqueur = liste[i]
+
+        /*Pop up d'une fenêtre pour afficher le gagnat*/
+        alert(vainqueur + " est le gagnant")
+    }
+
+</script>

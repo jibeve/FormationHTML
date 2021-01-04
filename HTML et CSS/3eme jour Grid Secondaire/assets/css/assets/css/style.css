@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+}
+.premier {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: blue;
+}
+.troisieme {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: burlywood;
+}
+.quatrieme {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: blueviolet;
+}

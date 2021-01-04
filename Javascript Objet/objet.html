@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/Javascript Objet/file.js"></script>
+</head>
+<body>
+    <script>
+
+        var Personne = function (nom, prenom){
+            this.nom = nom;
+            this.prenom = prenom;
+        }
+
+        
+
+         alert("La personne1 s'appelle : " + perso1.nom +
+         '\nLa personne 2 s\'appelle :' + perso2.nom);
+
+        document.write("La personne1 s'appelle" + perso1.nom);
+
+        class Personne{
+
+            nom;
+            prenom;
+            age;
+
+            constructor(nom, prenom, age){
+                this.nom = nom;
+                this.prenom = prenom;
+                this.age = age;
+            }
+
+            afficherNomComplet(){
+                return this.nom + " " + this.prenom;
+            }
+
+            getNom(){
+                return this.nom;
+            }
+
+            setNom(nom){
+                this.nom = nom;
+            }
+
+            getPrenom(){
+                return this.prenom;
+            }
+
+            setPrenom(prenom){
+                this.prenom = prenom;
+            }
+
+            getAge(){
+                return this.age;
+            }
+
+            setAge(age){
+                this.age = age;
+            }
+
+            afficherPersonne(){
+                return this.afficherNomComplet() + " " + this.age;
+            }
+        }
+
+        perso1 = new Personne ("Wick", "John", 32);
+        perso2 = new Personne ("Truc", "Bidule", 45);
+
+        document.write(perso2.age());
+
+        perso1.setAge(56);
+        document.write(perso1.getAge());
+
+        document.write(perso1.afficherPersonne());
+
+    </script>
+    
+    
+</body>
+</html>

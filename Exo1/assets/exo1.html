@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<H1>Exercice 1</H1>
+<p>Afficher la date et l'heure actuelle</p>
+    
+</body>
+</html>
+
+<script>
+    var aujourdhui = new Date()
+
+    document.writeln("Nous sommes le: ");
+    document.write('<br>');
+    document.writeln(aujourdhui.getDate()+"/"+(aujourdhui.getMonth()+1)+"/"+aujourdhui.getFullYear());
+    document.write('<br>');
+    document.write('<br>');
+    document.writeln("Il est exactement: ");
+    document.write('<br>');
+    document.writeln(aujourdhui.getHours() + " heures " + aujourdhui.getMinutes() + " minutes " + aujourdhui.getSeconds() + " secondes ");
+    document.write('<br>');
+</script>

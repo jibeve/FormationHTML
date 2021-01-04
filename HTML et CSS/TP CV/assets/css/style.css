@@ -1,0 +1,164 @@
+@font-face{
+    src:url(assets/fonts/Slabo27px-Regular.ttf);
+    font-family:Slabo27px-Regular;
+    src:url(assets/fonts/Slabo27px-Regular.ttf);
+}
+
+body{
+    background-color: rgb(185, 182, 182);
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+
+.header{
+    height: 100px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+
+.navbar ul{
+    position:sticky;
+    width: 97%;
+    top: 50px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(209, 217, 218);
+}
+
+.navbar-item{
+    float: left; 
+ }
+ 
+ .navbar-item a{
+     display: block ;
+     color: rgb(7, 6, 0);
+     text-align: center;
+     padding: 10px 120px;
+     text-decoration: none;
+ }
+
+ .lettrecapitale{
+     text-transform: capitalize;
+     color: rgb(3, 3, 3);
+     margin-left: 15px;
+ }
+
+ .firstletter{
+     color :lightblue
+ }
+ /* Pour page Mon CV*/
+
+.section{
+    height: 800px;
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+}
+
+.cv{
+    text-align: justify;
+    margin-right: 25px;
+}
+
+.article1 {
+    height: 100px;
+    float: left;
+    background-color: #ecf3f3;
+    width:42%;
+    
+    }
+
+.aside1{
+    height: 100px;
+    float: right;
+    background-color: #ecf3f3;
+    width:58%;
+    
+}
+
+.article2 {
+    height: 200px;
+    float: left;
+    background-color:#ecf3f3;
+    width: 43%;
+    
+    }
+
+.aside2{
+    height: 200px;
+    float: right;
+    background-color: #ecf3f3;
+    width:57%;
+    
+
+}
+
+.article3 {
+    height: 580px;
+    float: left;
+    background-color: #ecf3f3;
+    width:43%;
+    
+    }
+
+.aside3{
+    height: 580px;
+    float: right;
+    background-color: #ecf3f3;
+    width:57%;
+    
+
+}
+
+.présentation{
+    text-decoration: overline underline;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.img{
+    margin-left: 71px;
+    width: 75px;
+    float: left;
+    border-radius: 50%;
+}
+
+.above_icon{
+    word-spacing: 32px;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.div3{
+    text-align: center;
+}
+
+.div4{
+    background-color: lightcoral;
+    width: 500px;
+    padding: 20px;
+    border: 20px solid red;
+    margin: 50px
+}
+
+.divbas1{
+    background-color: lightgreen;
+    height: 160px;
+    width: 150px;
+    margin: 20px;
+}
+
+.divbas2{
+    background-color: lightgreen;
+    width: 150px;
+    padding: 75px;
+    
+}

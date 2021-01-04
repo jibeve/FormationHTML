@@ -1,0 +1,8 @@
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.enfant {
+    flex-basis: 150px;
+    background-color: yellow; }

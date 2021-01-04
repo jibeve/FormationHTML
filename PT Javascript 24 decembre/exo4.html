@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        +//Je crée un constructeur Guerrier avec 4 propriétés
+        //J'accède aux valurs des propriétés avec la methode this
+        function guerrier (nom, attaque, defense, sante){
+            this.nom = nom;
+            this.attaque = attaque;
+            this.defense = defense;
+            this.sante = sante;
+
+            }
+        
+        //Je déclare 2 guerriers avec les valeurs de leurs propriétés
+        var guerrier1 = new Guerrier("bibi", 10, 15, 30);
+        var guerrier2 = new Guerrier("gugus", 5, 20, 40);
+
+        //J'affiche le résultat dans le navigateur
+        document.write(guerrier1.sante);
+
+
+        //Je crée une fonction attack:
+        function attack(guerrier2){
+            guerrier1.sante = guerrier1.sante - guerrier2.attaque;
+        }
+
+
+        guerrier1.attack(guerrier2);
+        
+       
+
+
+        
+    </script>
+</body>
+</html>

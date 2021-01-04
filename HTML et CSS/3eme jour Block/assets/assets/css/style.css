@@ -1,0 +1,25 @@
+
+
+/* header, article, footer, aside {
+    display: block;
+    } */
+
+header {
+    background-color: red;
+    }
+article {
+    height: 300px;
+    float: left;
+    background-color: #66FFFF;
+    width:80%;
+    }
+aside {
+    height: 300px;
+    float:right;
+    width:20%;
+    background-color:yellow;
+    }
+footer {
+    clear: both;
+    background-color: #99FF66;
+    }

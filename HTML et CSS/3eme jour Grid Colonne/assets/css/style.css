@@ -1,0 +1,69 @@
+/* body {
+    display: -ms-grid;
+    grid-columns: 200px 400px;
+    grid-rows: 100px 300px;
+    }
+
+header, menu, aside, article { 
+    display: block; margin: 0; padding: 0;
+}
+
+header { 
+    -ms-grid-column: 1; -ms-grid-row: 1; background-color: yellow;
+}
+
+menu { 
+    -ms-grid-column: 2; -ms-grid-row: 1; background-color: red;
+}
+
+aside { 
+    -ms-grid-column: 1; -ms-grid-row: 2; background-color: grey; 
+}
+
+article { 
+    -ms-grid-column: 2; -ms-grid-row: 2; background-color: green; 
+} */
+
+.grid{
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+}
+.premier{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(115, 115, 228);
+
+}
+.deuxieme{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(11, 170, 90);
+
+}
+.troisieme{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(207, 34, 72);
+
+}
+.quatrieme {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(179, 219, 35);
+
+
+}
+.cinquieme{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(139, 0, 139);
+
+}
+.sixieme {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: rgb(235, 165, 99);
+
+
+
+}

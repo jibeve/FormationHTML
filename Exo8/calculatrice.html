@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <!--Je demande le nombre 1-->
+    <form name="calc">
+        <input type="text" name="nbr1" placeholder="nombre1">
+        <br><br>
+        <!--Je demande le nombre 2-->
+        <input type="text" name="nbr2" placeholder="nombre2">
+        <br><br>
+        <!--J'affiche le résultat-->
+        <input type="text" name="resultat">
+    </form>
+
+</body>
+
+</html>
+
+<script>
+
+
+
+    /* Fonction permettant d'additionner 2 nombres*/
+    function resultat() {
+        var nombre1 = document.calc.nbr1.value;
+        var nombre2 = document.calc.nbr2.value;
+        console.log(nombre1);
+        console.log(nombre2);
+        // document.calc.resultat.value = resultat;
+        // var add = parseInt(nombre1) + parseInt(nombre2);
+        document.calc.resultat.value = resultat;
+    }
+
+</script>

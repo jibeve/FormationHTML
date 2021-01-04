@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+function fizzBuzz(){
+    for (var i=1; i<101; i++){
+
+        // si le nbre est multipe de 3 et multiple de 5, on imprime FizzBuzz 
+        if(i % 3 == 0 && i % 5 == 0){
+            document.write('FizzBuzz');
+            document.write('<br>');
+        }
+        //Si le nbre est multiple de 5 on imprime Buzz
+        else if(i % 5 == 0){
+            document.write('Buzz');
+            document.write('<br>');
+        }
+        //Si le nbre est multiple de 3 on imprime Fizz
+        else if (i % 3 == 0){
+            document.write('Fizz');
+            document.write('<br>');
+        }
+        else{
+            document.write(i);
+            document.write('<br>');
+        }     
+    }
+}
+
+fizzBuzz();
+
+</script>

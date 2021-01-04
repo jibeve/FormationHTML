@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //Je crée un objet livre
+         const livre = {
+            //Je crée 3 tableaux correspondant aux propriétés (titre, auteur et readingStatus)
+            titre : ["The Road Ahead", "Steve Jobs", "Mockingjay : The Final Book of The Hunger Games"],
+            auteur : ["Bill Gates", "Walter Isaacson", "Suzanne Collins"],
+            readingStatus : ["true", "true", "false"]
+        };
+        //
+        for (elt in livre.titre){
+            document.write("titre " + " : " + "'" +livre.titre[elt] + "'");
+            document.write('<br>'+'<br>');
+            document.write("auteur " + " : " + "'" +livre.auteur[elt] + "'");
+            document.write('<br>'+'<br>');
+            document.write("readingStatus " + " : " + livre.readingStatus[elt]);
+            document.write('<br>'+'<br>');
+        };
+
+    </script>
+    
+</body>
+</html>

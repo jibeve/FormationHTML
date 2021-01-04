@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+
+    /*Création du tableau et remplissage avec les entiers déclarés plus bas*/
+    function monTableau(t) {
+        document.write('<p> Calcul de la somme</p>');
+        document.write('<table border="1" <tr>');
+        for (var i = 0; i < t.length; i++) {
+            document.writeln('<td>', t[i], '</td>');
+        }
+        document.write('<td></table>');
+        document.write('<br>');
+    }
+
+    function maSomme(t){
+         /* Calcule et affiche la moyenne des éléments d'un tableau */
+     var somme = 0;
+     for (var i=0; i<t.length; i++){
+            somme = somme + t[i];
+        }
+        document.write('<p>La somme est ' ,somme, '</p>')
+ }
+
+    function monProduit(t){
+        var produit = 1;
+        for (var i=0; i<t.length; i++){
+            produit = (produit * t[i]);
+        }
+        document.write('<p>Le produit est ' ,produit, '</p>')
+    }
+    
+    /* Je declare mes variables pour le tableau*/
+    var entier = [2, 10, 30, 76];
+    monTableau(entier);
+    maSomme(entier);
+    monProduit(entier);
+
+
+</script>

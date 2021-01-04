@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+
+function monTableau(t){
+    document.write('<p> Mon tableau</p>');
+    document.write('<table border="1" <tr>');
+        for (var i = 0; i < t.length; i++) {
+            document.writeln('<td>', t[i], '</td>');
+        }
+        document.write('<td></table>');
+        document.write('<br>');
+        document.write("Le premier chiffre du tableau est " + t[0]);
+        document.write('<br>');
+        document.write('<br>');
+    }
+    /* Je declare mes variables pour le tableau*/
+    var notes = [2, 10, 30, 76];
+    monTableau(notes);
+
+function addition(x, y){
+    var a = x, b = y;
+    var add = a + b;
+    document.write("Le résultat de l'addition est: " + add);
+    document.write('<br>');
+    document.write('<br>');
+}
+
+function soustraction(x, y){
+    var a = x, b = y;
+    var sous = a - b;
+    document.write("Le resultat de la soustraction est " + sous);
+    document.write('<br>');
+    document.write('<br>');
+
+}
+
+function multiplication(x, y){
+    var a = x, b = y;
+    var multi = a * b;
+    document.write("Le resultat de la multiplication est " + multi);
+    document.write('<br>');
+    document.write('<br>');
+
+}
+
+function division(x, y){
+    var a = x, b = y;
+    var divi = a / b;
+    document.write("Le resultat de la division est " + divi);
+    document.write('<br>');
+    document.write('<br>');
+
+}
+
+function MinToSecond(x){
+    var min = x;
+    var second = x * 60;
+    document.write(x + ' minutes correspondent à ' + second + ' secondes' );
+    document.write('<br>');
+    document.write('<br>');
+}
+
+function ageEnJour(x){
+    var age = x;
+    var ageToJour = x * 365;
+    document.writeln('Vous avez ' + x + ' ans soit ' + ageToJour + ' jours ');
+    document.write('<br>');
+    document.write('<br>');
+}
+    
+
+
+multiplication(12,89);
+//addition(6,12);
+soustraction(4,9);
+division(67, 8);
+MinToSecond(2);
+ageEnJour(1);
+
+
+</script>
